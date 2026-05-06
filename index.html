@@ -5,18 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Daiana Beltrán Digital | Webs estratégicas para negocios</title>
-  <meta name="description" content="Diseño páginas web profesionales para negocios que quieren verse mejor, generar confianza y recibir más consultas por WhatsApp.">
+  <meta name="description" content="Diseño páginas web estratégicas para negocios que quieren transmitir confianza, verse profesionales y recibir más consultas por WhatsApp.">
 
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
 
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -26,10 +19,7 @@
       overflow-x: hidden;
     }
 
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
+    a { text-decoration: none; color: inherit; }
 
     .container {
       width: min(1180px, 92%);
@@ -43,29 +33,27 @@
       position: fixed;
       top: 0;
       width: 100%;
-      z-index: 99;
+      z-index: 100;
       background: rgba(3,4,10,.78);
       backdrop-filter: blur(18px);
       border-bottom: 1px solid rgba(255,255,255,.08);
     }
 
     nav {
-      height: 76px;
+      height: 74px;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
 
     .brand {
-      font-size: 15px;
+      font-size: 14px;
       letter-spacing: 3px;
       text-transform: uppercase;
-      font-weight: 800;
+      font-weight: 900;
     }
 
-    .brand span {
-      color: #ff2f72;
-    }
+    .brand span { color: #ff2f72; }
 
     .nav-links {
       display: flex;
@@ -88,6 +76,8 @@
       color: #06110a;
       box-shadow: 0 15px 45px rgba(37,211,102,.25);
       transition: .25s ease;
+      border: none;
+      cursor: pointer;
     }
 
     .btn:hover {
@@ -98,7 +88,7 @@
     .btn-pink {
       background: #ff2f72;
       color: white;
-      box-shadow: 0 15px 45px rgba(255,47,114,.25);
+      box-shadow: 0 15px 45px rgba(255,47,114,.28);
     }
 
     .btn-dark {
@@ -112,11 +102,11 @@
       min-height: 100vh;
       display: flex;
       align-items: center;
-      padding: 120px 0 80px;
+      padding: 125px 0 90px;
       background:
-        radial-gradient(circle at 76% 24%, rgba(255,47,114,.38), transparent 32%),
+        radial-gradient(circle at 78% 22%, rgba(255,47,114,.38), transparent 32%),
         radial-gradient(circle at 12% 80%, rgba(117,47,255,.18), transparent 32%),
-        linear-gradient(135deg, #03040a 0%, #090b16 55%, #120715 100%);
+        linear-gradient(135deg, #03040a 0%, #080a15 55%, #120715 100%);
       position: relative;
     }
 
@@ -124,7 +114,7 @@
       content: "";
       position: absolute;
       inset: 0;
-      background: linear-gradient(to bottom, transparent 70%, #03040a 100%);
+      background: linear-gradient(to bottom, transparent 72%, #03040a 100%);
       pointer-events: none;
     }
 
@@ -132,8 +122,8 @@
       position: relative;
       z-index: 2;
       display: grid;
-      grid-template-columns: 1.05fr .95fr;
-      gap: 60px;
+      grid-template-columns: 1.02fr .98fr;
+      gap: 68px;
       align-items: center;
     }
 
@@ -149,15 +139,16 @@
 
     h1 {
       font-family: Georgia, 'Times New Roman', serif;
-      font-size: clamp(48px, 7vw, 104px);
-      line-height: .92;
-      letter-spacing: -3px;
+      font-size: clamp(42px, 5.8vw, 82px);
+      line-height: .96;
+      letter-spacing: -2.5px;
       text-transform: uppercase;
       margin-bottom: 28px;
+      max-width: 780px;
     }
 
     .hero-text {
-      font-size: clamp(19px, 2vw, 25px);
+      font-size: clamp(18px, 1.7vw, 23px);
       color: #ded9df;
       max-width: 660px;
       margin-bottom: 28px;
@@ -175,9 +166,7 @@
       font-size: 15px;
     }
 
-    .portrait-wrap {
-      position: relative;
-    }
+    .portrait-wrap { position: relative; }
 
     .portrait {
       border-radius: 36px;
@@ -199,10 +188,10 @@
       background: linear-gradient(135deg, #ff2f72, #a31cff);
       padding: 20px 24px;
       border-radius: 22px;
-      max-width: 330px;
+      max-width: 350px;
       font-weight: 900;
-      font-size: 21px;
-      box-shadow: 0 24px 70px rgba(255,47,114,.3);
+      font-size: 20px;
+      box-shadow: 0 24px 70px rgba(255,47,114,.32);
     }
 
     section {
@@ -212,8 +201,8 @@
 
     .section-head {
       text-align: center;
-      max-width: 850px;
-      margin: 0 auto 46px;
+      max-width: 860px;
+      margin: 0 auto 48px;
     }
 
     .label {
@@ -227,10 +216,11 @@
 
     .title {
       font-family: Georgia, 'Times New Roman', serif;
-      font-size: clamp(38px, 5vw, 72px);
-      line-height: 1;
+      font-size: clamp(34px, 4.5vw, 64px);
+      line-height: 1.02;
       text-transform: uppercase;
       margin-bottom: 18px;
+      letter-spacing: -1.5px;
     }
 
     .subtitle {
@@ -238,7 +228,7 @@
       font-size: 20px;
     }
 
-    .pain-grid {
+    .pain-grid, .solution-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 18px;
@@ -250,6 +240,13 @@
       border-radius: 26px;
       padding: 28px;
       box-shadow: 0 24px 65px rgba(0,0,0,.25);
+      transition: .25s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(255,47,114,.35);
+      box-shadow: 0 30px 85px rgba(255,47,114,.12);
     }
 
     .card .icon {
@@ -262,9 +259,7 @@
       margin-bottom: 12px;
     }
 
-    .card p {
-      color: #c8c1cc;
-    }
+    .card p { color: #c8c1cc; }
 
     .cream {
       background: #f4efe8;
@@ -272,7 +267,8 @@
     }
 
     .cream .subtitle,
-    .cream .card p {
+    .cream .card p,
+    .cream .plan p {
       color: #4b4650;
     }
 
@@ -282,10 +278,89 @@
       box-shadow: 0 20px 50px rgba(0,0,0,.08);
     }
 
-    .solution-grid {
+    .plans {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 18px;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      align-items: stretch;
+    }
+
+    .plan {
+      background: #fff;
+      color: #090910;
+      border-radius: 30px;
+      padding: 30px;
+      border: 2px solid #eee;
+      position: relative;
+      box-shadow: 0 20px 60px rgba(0,0,0,.08);
+      transition: .25s ease;
+    }
+
+    .plan:hover { transform: translateY(-6px); }
+
+    .plan.recommended {
+      border: 3px solid #ff2f72;
+      transform: scale(1.04);
+      box-shadow: 0 24px 80px rgba(255,47,114,.22);
+    }
+
+    .plan.recommended:hover { transform: scale(1.04) translateY(-6px); }
+
+    .plan-badge {
+      display: inline-block;
+      background: #090910;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 18px;
+    }
+
+    .recommended .plan-badge { background: #ff2f72; }
+
+    .plan h3 {
+      font-size: 30px;
+      line-height: 1;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .price {
+      font-size: 44px;
+      color: #ff2f72;
+      font-weight: 900;
+      margin-bottom: 8px;
+    }
+
+    .monthly {
+      font-size: 25px;
+      font-weight: 900;
+      margin-bottom: 22px;
+    }
+
+    .plan ul { list-style: none; }
+
+    .plan li {
+      margin: 10px 0;
+      font-weight: 700;
+      font-size: 15px;
+    }
+
+    .plan li::before {
+      content: "✓";
+      color: #ff2f72;
+      margin-right: 8px;
+      font-weight: 900;
+    }
+
+    .note {
+      margin-top: 28px;
+      color: #706976;
+      font-size: 14px;
+      text-align: center;
     }
 
     .portfolio {
@@ -306,6 +381,7 @@
       padding: 28px;
       margin-bottom: 30px;
       overflow: hidden;
+      box-shadow: 0 30px 90px rgba(0,0,0,.25);
     }
 
     .project:nth-child(even) {
@@ -357,6 +433,135 @@
       font-weight: 800;
     }
 
+    .testimonials {
+      background:
+        radial-gradient(circle at 50% 0%, rgba(255,47,114,.16), transparent 35%),
+        #080910;
+      overflow: hidden;
+    }
+
+    .google-title {
+      text-align: center;
+      margin-bottom: 38px;
+    }
+
+    .google-logo {
+      font-size: 34px;
+      font-weight: 900;
+      letter-spacing: -1px;
+      margin-bottom: 6px;
+    }
+
+    .google-logo span:nth-child(1) { color: #4285F4; }
+    .google-logo span:nth-child(2) { color: #EA4335; }
+    .google-logo span:nth-child(3) { color: #FBBC05; }
+    .google-logo span:nth-child(4) { color: #4285F4; }
+    .google-logo span:nth-child(5) { color: #34A853; }
+    .google-logo span:nth-child(6) { color: #EA4335; }
+
+    .stars {
+      color: #ffc247;
+      letter-spacing: 3px;
+      font-size: 24px;
+      margin-top: 10px;
+    }
+
+    .carousel {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+      -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    }
+
+    .track {
+      display: flex;
+      gap: 24px;
+      width: max-content;
+      animation: scroll 38s linear infinite;
+    }
+
+    .carousel:hover .track {
+      animation-play-state: paused;
+    }
+
+    @keyframes scroll {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+
+    .testimonial-card {
+      width: 360px;
+      min-height: 210px;
+      background: linear-gradient(145deg, rgba(255,255,255,.09), rgba(255,255,255,.04));
+      border: 1px solid rgba(255,194,71,.22);
+      border-radius: 26px;
+      padding: 28px;
+      box-shadow: 0 25px 70px rgba(0,0,0,.25);
+    }
+
+    .testimonial-card h3 {
+      font-size: 21px;
+      margin-bottom: 4px;
+    }
+
+    .testimonial-card .time {
+      color: #b8b0bb;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .testimonial-card p {
+      color: #efe8dc;
+      font-size: 17px;
+    }
+
+    .why {
+      background: #f4efe8;
+      color: #090910;
+    }
+
+    .why-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+      align-items: center;
+    }
+
+    .why-copy {
+      background: #fff;
+      padding: 42px;
+      border-radius: 34px;
+      box-shadow: 0 24px 70px rgba(0,0,0,.08);
+    }
+
+    .why-copy h2 {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: clamp(34px, 4.5vw, 64px);
+      line-height: 1;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .why-copy p {
+      color: #4d4650;
+      font-size: 19px;
+      margin-bottom: 18px;
+    }
+
+    .why-points {
+      display: grid;
+      gap: 16px;
+    }
+
+    .why-point {
+      background: #fff;
+      border-radius: 22px;
+      padding: 24px;
+      border: 1px solid #e9dde2;
+      box-shadow: 0 18px 45px rgba(0,0,0,.06);
+    }
+
     .story-box {
       display: grid;
       grid-template-columns: .9fr 1.1fr;
@@ -381,95 +586,6 @@
       margin-bottom: 16px;
     }
 
-    .plans {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-      align-items: stretch;
-    }
-
-    .plan {
-      background: #fff;
-      color: #090910;
-      border-radius: 30px;
-      padding: 30px;
-      border: 2px solid #eee;
-      position: relative;
-      box-shadow: 0 20px 60px rgba(0,0,0,.08);
-    }
-
-    .plan.recommended {
-      border: 3px solid #ff2f72;
-      transform: scale(1.04);
-      box-shadow: 0 24px 80px rgba(255,47,114,.22);
-    }
-
-    .plan-badge {
-      display: inline-block;
-      background: #090910;
-      color: white;
-      padding: 8px 14px;
-      border-radius: 999px;
-      font-size: 12px;
-      font-weight: 900;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      margin-bottom: 18px;
-    }
-
-    .recommended .plan-badge {
-      background: #ff2f72;
-    }
-
-    .plan h3 {
-      font-size: 30px;
-      line-height: 1;
-      text-transform: uppercase;
-      margin-bottom: 12px;
-    }
-
-    .plan p {
-      color: #555;
-      margin-bottom: 18px;
-    }
-
-    .price {
-      font-size: 44px;
-      color: #ff2f72;
-      font-weight: 900;
-      margin-bottom: 8px;
-    }
-
-    .monthly {
-      font-size: 25px;
-      font-weight: 900;
-      margin-bottom: 22px;
-    }
-
-    .plan ul {
-      list-style: none;
-    }
-
-    .plan li {
-      margin: 10px 0;
-      font-weight: 700;
-      font-size: 15px;
-    }
-
-    .plan li::before {
-      content: "✓";
-      color: #ff2f72;
-      margin-right: 8px;
-      font-weight: 900;
-    }
-
-    .note {
-      margin-top: 28px;
-      color: #706976;
-      font-size: 14px;
-      text-align: center;
-    }
-
     .investment {
       background:
         radial-gradient(circle at 85% 30%, rgba(255,47,114,.2), transparent 32%),
@@ -489,7 +605,7 @@
 
     .investment-box h2 {
       font-family: Georgia, 'Times New Roman', serif;
-      font-size: clamp(38px, 5vw, 72px);
+      font-size: clamp(36px, 4.8vw, 68px);
       line-height: 1;
       text-transform: uppercase;
     }
@@ -510,7 +626,7 @@
 
     .cta h2 {
       font-family: Georgia, 'Times New Roman', serif;
-      font-size: clamp(42px, 6vw, 86px);
+      font-size: clamp(38px, 5vw, 72px);
       line-height: 1;
       text-transform: uppercase;
       margin-bottom: 22px;
@@ -545,20 +661,19 @@
       justify-content: center;
       font-size: 34px;
       font-weight: 900;
-      z-index: 100;
+      z-index: 120;
       box-shadow: 0 18px 45px rgba(37,211,102,.35);
     }
 
     @media (max-width: 980px) {
-      .nav-links {
-        display: none;
-      }
+      .nav-links { display: none; }
 
       .hero-grid,
       .project,
       .project:nth-child(even),
       .story-box,
-      .investment-box {
+      .investment-box,
+      .why-box {
         grid-template-columns: 1fr;
       }
 
@@ -568,17 +683,31 @@
         grid-template-columns: 1fr;
       }
 
-      .plan.recommended {
+      .plan.recommended,
+      .plan.recommended:hover {
         transform: none;
       }
 
       h1 {
-        letter-spacing: -2px;
+        font-size: clamp(40px, 13vw, 62px);
+        letter-spacing: -1.5px;
+      }
+
+      .title {
+        font-size: clamp(34px, 10vw, 54px);
       }
 
       .portrait-badge {
         position: static;
         margin-top: 16px;
+      }
+
+      .testimonial-card {
+        width: 310px;
+      }
+
+      section {
+        padding: 72px 0;
       }
     }
   </style>
@@ -595,8 +724,8 @@
 
       <div class="nav-links">
         <a href="#dolor">Problema</a>
-        <a href="#portfolio">Proyectos</a>
         <a href="#planes">Planes</a>
+        <a href="#portfolio">Proyectos</a>
         <a href="#contacto">Contacto</a>
       </div>
 
@@ -613,17 +742,17 @@
       <div class="eyebrow">Páginas web estratégicas para negocios</div>
 
       <h1>
-        Tu negocio necesita una web que <span class="pink">trabaje por vos.</span>
+        Tu negocio merece una presencia digital que <span class="pink">transmita confianza.</span>
       </h1>
 
       <p class="hero-text">
-        Diseño páginas web profesionales para que te encuentren, confíen en vos
-        y te escriban por <span class="green">WhatsApp</span>.
+        Diseño webs estratégicas para negocios que necesitan verse profesionales,
+        generar autoridad y convertir visitas en consultas reales por <span class="green">WhatsApp</span>.
       </p>
 
       <div class="hero-actions">
         <a class="btn" href="https://wa.me/542996032267?text=Hola%20Daiana%2C%20quiero%20una%20web%20profesional%20para%20mi%20negocio.">Quiero mi web</a>
-        <a class="btn btn-dark" href="#portfolio">Ver proyectos</a>
+        <a class="btn btn-dark" href="#planes">Ver opciones</a>
       </div>
 
       <p class="hero-mini">
@@ -645,8 +774,8 @@
 <section id="dolor">
   <div class="container">
     <div class="section-head">
-      <div class="label">Antes de vender, tu web tiene que generar confianza</div>
-      <h2 class="title">¿Te <span class="pink">identificás?</span></h2>
+      <div class="label">Antes de vender, tu negocio tiene que generar confianza</div>
+      <h2 class="title">El problema no es tu servicio. <span class="pink">Es cómo se percibe online.</span></h2>
       <p class="subtitle">
         Muchos negocios son buenos, pero pierden oportunidades porque su presencia digital
         no transmite lo que realmente valen.
@@ -676,127 +805,6 @@
         <div class="icon">💬</div>
         <h3>Te faltan consultas</h3>
         <p>Una web clara facilita que la persona entienda y te escriba.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="cream">
-  <div class="container">
-    <div class="section-head">
-      <div class="label">Lo que realmente estás comprando</div>
-      <h2 class="title">No vendo “una página”. Diseño <span class="pink">presencia digital.</span></h2>
-      <p class="subtitle">
-        Una web profesional tiene que ordenar tu mensaje, mostrar tu valor y llevar al cliente
-        al próximo paso: escribirte.
-      </p>
-    </div>
-
-    <div class="solution-grid">
-      <div class="card">
-        <h3>Diseño premium</h3>
-        <p>Una imagen moderna, seria y alineada a tu negocio.</p>
-      </div>
-
-      <div class="card">
-        <h3>WhatsApp directo</h3>
-        <p>Botones claros para convertir visitas en consultas.</p>
-      </div>
-
-      <div class="card">
-        <h3>Preparada para Google</h3>
-        <p>Estructura, textos y carga pensados para visibilidad.</p>
-      </div>
-
-      <div class="card">
-        <h3>Adaptada a celular</h3>
-        <p>Tu web se ve profesional en todos los dispositivos.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="portfolio" id="portfolio">
-  <div class="container">
-    <div class="section-head">
-      <div class="label">Proyectos reales</div>
-      <h2 class="title">Webs diseñadas para transmitir <span class="pink">confianza</span></h2>
-      <p class="subtitle">
-        No son plantillas vacías. Son páginas pensadas para negocios reales,
-        con mensaje claro, estética profesional y llamados a la acción.
-      </p>
-    </div>
-
-    <div class="project">
-      <div class="project-img">
-        <img src="assets/eca-corporativa.webp" alt="Web ECA Eventos Corporativos">
-      </div>
-
-      <div class="project-content">
-        <div class="tags">
-          <span class="tag">Eventos corporativos</span>
-          <span class="tag">Imagen premium</span>
-          <span class="tag">WhatsApp</span>
-        </div>
-
-        <h3>ECA Eventos Corporativos</h3>
-        <p>
-          Una web pensada para una productora de eventos que necesita transmitir
-          profesionalismo, experiencia y capacidad de resolver eventos importantes.
-        </p>
-
-        <a class="btn btn-pink" target="_blank" href="https://eca-eventos-neuquen.github.io/">Ver proyecto</a>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="project-content">
-        <div class="tags">
-          <span class="tag">SEO local</span>
-          <span class="tag">Catering</span>
-          <span class="tag">Consulta rápida</span>
-        </div>
-
-        <h3>Catering & Eventos Neuquén</h3>
-        <p>
-          Una landing comercial orientada a búsquedas locales, con foco en mostrar servicios,
-          generar confianza y facilitar el contacto por WhatsApp.
-        </p>
-
-        <a class="btn btn-pink" target="_blank" href="https://eventos-corporativos-alicia.github.io/catering-eventos-neuquen/?v=7">Ver proyecto</a>
-      </div>
-
-      <div class="project-img">
-        <img src="assets/catering-neuquen.webp" alt="Web Catering y Eventos Neuquén">
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container">
-    <div class="story-box">
-      <img src="assets/daiana-premium.webp" alt="Daiana Beltrán">
-
-      <div>
-        <div class="label">Quién está detrás</div>
-        <h2 class="title">Soy Daiana Beltrán</h2>
-
-        <p>
-          Combino comunicación, estrategia visual y mirada de negocio para diseñar páginas
-          que no solo se vean lindas, sino que ayuden a generar confianza.
-        </p>
-
-        <p>
-          Mi objetivo es simple: que cuando una persona entre a tu web entienda rápido
-          qué hacés, por qué debería elegirte y cómo contactarte.
-        </p>
-
-        <p>
-          No necesitás saber de tecnología. Te acompaño desde la idea hasta la web publicada.
-        </p>
-
-        <a class="btn" href="https://wa.me/542996032267?text=Hola%20Daiana%2C%20quiero%20contarte%20sobre%20mi%20negocio%20para%20hacer%20una%20web.">Contame tu proyecto</a>
       </div>
     </div>
   </div>
@@ -873,9 +881,214 @@
     </div>
 
     <p class="note">
-      Dominio no incluido. Te acompaño en la compra y configuración.
+      Dominio personalizado incluido el primer año para contrataciones completas o planes con permanencia.
       Cambios grandes o nuevas secciones se cotizan aparte.
     </p>
+  </div>
+</section>
+
+<section class="why">
+  <div class="container why-box">
+    <div class="why-copy">
+      <div class="label">Por qué importa</div>
+      <h2>Tu competencia no necesita ser mejor. <span class="pink">Solo necesita verse más profesional.</span></h2>
+      <p>
+        Muchas empresas pierden clientes no por su servicio, sino porque su presencia digital transmite desorden,
+        desactualización o poca confianza.
+      </p>
+      <p>
+        Una web bien diseñada ordena tu mensaje, muestra tu valor y hace que la persona entienda por qué debería elegirte.
+      </p>
+      <a class="btn" href="https://wa.me/542996032267?text=Hola%20Daiana%2C%20quiero%20mejorar%20la%20presencia%20digital%20de%20mi%20negocio.">Quiero mejorar mi presencia</a>
+    </div>
+
+    <div class="why-points">
+      <div class="why-point">
+        <h3>Más confianza</h3>
+        <p>La primera impresión también ocurre online.</p>
+      </div>
+      <div class="why-point">
+        <h3>Más claridad</h3>
+        <p>Tu cliente entiende rápido qué hacés y cómo contactarte.</p>
+      </div>
+      <div class="why-point">
+        <h3>Más consultas</h3>
+        <p>Botones, textos y estructura pensados para llevar al WhatsApp.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <div class="section-head">
+      <div class="label">Proyectos reales</div>
+      <h2 class="title">Webs diseñadas para transmitir <span class="pink">confianza</span></h2>
+      <p class="subtitle">
+        No son plantillas vacías. Son páginas pensadas para negocios reales,
+        con mensaje claro, estética profesional y llamados a la acción.
+      </p>
+    </div>
+
+    <div class="project">
+      <div class="project-img">
+        <img src="assets/eca-corporativa.webp" alt="Web ECA Eventos Corporativos">
+      </div>
+
+      <div class="project-content">
+        <div class="tags">
+          <span class="tag">Eventos corporativos</span>
+          <span class="tag">Imagen premium</span>
+          <span class="tag">WhatsApp</span>
+        </div>
+
+        <h3>ECA Eventos Corporativos</h3>
+        <p>
+          Una web pensada para una productora de eventos que necesita transmitir
+          profesionalismo, experiencia y capacidad de resolver eventos importantes.
+        </p>
+
+        <a class="btn btn-pink" target="_blank" href="https://eca-eventos-neuquen.github.io/">Ver proyecto</a>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-content">
+        <div class="tags">
+          <span class="tag">SEO local</span>
+          <span class="tag">Catering</span>
+          <span class="tag">Consulta rápida</span>
+        </div>
+
+        <h3>Catering & Eventos Neuquén</h3>
+        <p>
+          Una landing comercial orientada a búsquedas locales, con foco en mostrar servicios,
+          generar confianza y facilitar el contacto por WhatsApp.
+        </p>
+
+        <a class="btn btn-pink" target="_blank" href="https://eventos-corporativos-alicia.github.io/catering-eventos-neuquen/?v=7">Ver proyecto</a>
+      </div>
+
+      <div class="project-img">
+        <img src="assets/catering-neuquen.webp" alt="Web Catering y Eventos Neuquén">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials">
+  <div class="container">
+    <div class="google-title">
+      <div class="google-logo">
+        <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+      </div>
+      <h2>Opiniones y resultados</h2>
+      <p class="subtitle">Lo que más vende no es prometer. Es demostrar.</p>
+      <div class="stars">★★★★★</div>
+    </div>
+  </div>
+
+  <div class="carousel">
+    <div class="track">
+      <div class="testimonial-card">
+        <h3>ECA Eventos</h3>
+        <div class="time">Proyecto web corporativo</div>
+        <div class="stars">★★★★★</div>
+        <p>“La web nos ayudó a mostrar una imagen mucho más profesional para empresas y eventos importantes.”</p>
+      </div>
+
+      <div class="testimonial-card">
+        <h3>Catering Neuquén</h3>
+        <div class="time">Landing comercial</div>
+        <div class="stars">★★★★★</div>
+        <p>“Ahora la propuesta se entiende rápido, se ve más seria y el contacto por WhatsApp queda mucho más claro.”</p>
+      </div>
+
+      <div class="testimonial-card">
+        <h3>Marca profesional</h3>
+        <div class="time">Presencia digital</div>
+        <div class="stars">★★★★★</div>
+        <p>“Pasamos de depender solo de redes a tener una página que ordena todo el mensaje del negocio.”</p>
+      </div>
+
+      <div class="testimonial-card">
+        <h3>Negocio local</h3>
+        <div class="time">Web estratégica</div>
+        <div class="stars">★★★★★</div>
+        <p>“La web transmite confianza desde el primer vistazo. Se nota mucho más profesional.”</p>
+      </div>
+
+      <div class="testimonial-card">
+        <h3>Servicio profesional</h3>
+        <div class="time">Consulta por WhatsApp</div>
+        <div class="stars">★★★★★</div>
+        <p>“El diseño quedó claro, moderno y orientado a que el cliente nos escriba.”</p>
+      </div>
+
+      <div class="testimonial-card">
+        <h3>ECA Eventos</h3>
+        <div class="time">Proyecto web corporativo</div>
+        <div class="stars">★★★★★</div>
+        <p>“La web nos ayudó a mostrar una imagen mucho más profesional para empresas y eventos importantes.”</p>
+      </div>
+
+      <div class="testimonial-card">
+        <h3>Catering Neuquén</h3>
+        <div class="time">Landing comercial</div>
+        <div class="stars">★★★★★</div>
+        <p>“Ahora la propuesta se entiende rápido, se ve más seria y el contacto por WhatsApp queda mucho más claro.”</p>
+      </div>
+
+      <div class="testimonial-card">
+        <h3>Marca profesional</h3>
+        <div class="time">Presencia digital</div>
+        <div class="stars">★★★★★</div>
+        <p>“Pasamos de depender solo de redes a tener una página que ordena todo el mensaje del negocio.”</p>
+      </div>
+
+      <div class="testimonial-card">
+        <h3>Negocio local</h3>
+        <div class="time">Web estratégica</div>
+        <div class="stars">★★★★★</div>
+        <p>“La web transmite confianza desde el primer vistazo. Se nota mucho más profesional.”</p>
+      </div>
+
+      <div class="testimonial-card">
+        <h3>Servicio profesional</h3>
+        <div class="time">Consulta por WhatsApp</div>
+        <div class="stars">★★★★★</div>
+        <p>“El diseño quedó claro, moderno y orientado a que el cliente nos escriba.”</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="story-box">
+      <img src="assets/daiana-premium.webp" alt="Daiana Beltrán">
+
+      <div>
+        <div class="label">Quién está detrás</div>
+        <h2 class="title">Soy Daiana Beltrán</h2>
+
+        <p>
+          Combino comunicación, estrategia visual y mirada de negocio para diseñar páginas
+          que no solo se vean lindas, sino que ayuden a generar confianza.
+        </p>
+
+        <p>
+          Mi objetivo es simple: que cuando una persona entre a tu web entienda rápido
+          qué hacés, por qué debería elegirte y cómo contactarte.
+        </p>
+
+        <p>
+          No necesitás saber de tecnología. Te acompaño desde la idea hasta la web publicada.
+        </p>
+
+        <a class="btn" href="https://wa.me/542996032267?text=Hola%20Daiana%2C%20quiero%20contarte%20sobre%20mi%20negocio%20para%20hacer%20una%20web.">Contame tu proyecto</a>
+      </div>
+    </div>
   </div>
 </section>
 
